@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(245, 248, 252);
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: rgb(25, 55, 90);
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    align-items: center;
+}
+
+header .top-nav a {
+    color: rgb(25, 55, 90);
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+header .top-nav a:hover {
+    color: white;
+    text-decoration: underline;
+    margin-left: 10px;
+    background-color: rgb(45, 95, 145);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    min-height: 800px;
+    background-color: rgb(225, 235, 245);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: rgb(25, 55, 90);
+    margin: 10px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.sidebar a:hover {
+    background: rgb(45, 95, 145);
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: rgb(225, 235, 245);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-top: 5px solid rgb(45, 95, 145);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(25, 55, 90);
+    color: white;
+    padding: 10px 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
